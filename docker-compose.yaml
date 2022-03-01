@@ -5,8 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - 3031:3031
     volumes:
       - .:/workspaces/python-demo
     working_dir: /workspaces/python-demo
