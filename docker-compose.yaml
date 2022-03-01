@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  pythondev:
+    container_name: PYTHON_DEV
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3031:3031
+    volumes:
+      - .:/workspaces/python-demo
+    working_dir: /workspaces/python-demo
+    tty: true
+    entrypoint: ["bash"]
