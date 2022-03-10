@@ -1,6 +1,3 @@
-.vscode/
 __pycache__/
 Task_FY20_Reliability_Python_Conversion/
-
-h5_conversion.py
-h5_converter.py
+test/out/

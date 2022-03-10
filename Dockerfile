@@ -1,3 +1,3 @@
 FROM python:latest
 
-RUN pip install numpy
+RUN pip install numpy h5py

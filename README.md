@@ -1,7 +1,20 @@
 # python-devenv-demo
 
-Make sure to add file sharing from Docker settings
+If using bind mount, add file sharing folder from Docker Settings > Resources > File Sharing
+
+Build, run, and connect to devcontainer
 
   docker compose up -d
-  docker compose down
   docker exec -it PYTHON_DEV bash
+
+Install Python plugin for VSCode
+
+Setup launch.json to config debugger
+
+To start script using the Python interpreter inside container without debugger:
+
+  python convert.py --input_folder /workspaces/python-demo/Task_FY20_Reliability_Python_Conversion --output_folder /workspaces/python-demo/test
+
+To rebuild image, remove container as well as image
+
+  docker compose down
