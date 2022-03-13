@@ -13,7 +13,7 @@ Setup launch.json to config debugger
 
 To start script using the Python interpreter inside container without debugger:
 
-    python convert.py --input_folder /workspaces/python-demo/Task_FY20_Reliability_Python_Conversion --output_folder /workspaces/python-demo/test
+    python convert.py --input_folder /workspaces/python-demo/test/in --output_folder /workspaces/python-demo/test/out
 
 To rebuild image, remove container as well as image
 
