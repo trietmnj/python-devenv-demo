@@ -1,6 +1,6 @@
 # python-devenv-demo
 
-#### python-devenv-demo is a step-by-step tutorial of setting up a Python development environment inside 
+#### python-devenv-demo provides a tutorial to set up a VSCode-based Python development environment inside a Docker container 
 
 If using bind mount, add file sharing folder from Docker Settings > Resources > File Sharing
 
@@ -19,7 +19,7 @@ To rebuild image, remove container as well as image
 
 Install Python and Remote Development plugin for VSCode
 
-Setup launch.json to config debugger
+Setup .vscode/launch.json to config debugger
 
     {
       "version": "0.2.0",
